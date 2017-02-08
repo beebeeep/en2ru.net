@@ -1,0 +1,8 @@
+baseurl = "http://en2ru.net/"
+languageCode = "en-us"
+title = "Professional translation services"
+theme = "prologue"
+
+[params]
+  name = "Inessa Akhmetova"
+  description = "Translator"

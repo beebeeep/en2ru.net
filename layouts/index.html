@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span>
+							<h1 id="title">{{ .Site.Params.name }}</h1>
+							<p>{{ .Site.Params.description }}</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#services" id="services-link" class="skel-layers-ignoreHref"><span class="icon fa-star">Translation Services</a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="#philosophy" id="philosophy-link" class="skel-layers-ignoreHref"><span class="icon fa-coffee">Philosophy</a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-briefcase">Partners and clients</span></a></li>
+								<li><a href="#cv" id="cv-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o">CV</span></a></li>
+								<li><a href="#rates" id="rates-link" class="skel-layers-ignoreHref"><span class="icon fa-usd">Rates</span></a></li>
+								<li><a href="#testimonials" id="testimonials-link" class="skel-layers-ignoreHref"><span class="icon fa-quote-right">Testimonials</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+              {{ range .Site.Params.social }}
+              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              {{ end }}
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+                                <h2 class="alt">Translation and localization services for EN-RU pair.</h2>
+								<p>You have come to the right place.</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<!-- a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a -->
+
+							<p>My name is Inessa Akhmetova, and  I am an experienced certified translator from English into Russian, 
+                            authorized by Egyptian Translators Association (<a href="http://egyta.com/">EGYTA</a>) 
+                            and International Federation of Translation (<a href="http://fit-ift.org.dedi303.nur4.host-h.net/index.php?frontend_action=display_compound_text_content&item_id=980">FIT</a>)
+                            No 415 and UNESCO to produce translation and proofread works.</p>
+                            
+                            <p>I  provide translation, localization services in a number of domains.</p>
+                            
+                            <p>You may learn more about me and my services on my <a href="http://www.proz.com/profile/130920">ProZ.com profile</a>.</p>
+
+						</div>
+					</section>
+
+				<!-- Translation Services-->
+					<section id="services" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Translation services</h2>
+							</header>
+
+                            <p>I provide a wide range of translation services:
+                            <ol>
+                                <li>Written translations</li>
+                                <li>Interpreting</li>
+                                <li>Localization of software and translation / language support of multilingual websites</li>
+                                <li>Translation of documents for individuals (passports, diplomas, certificates, powers of attorney, etc.)</li>
+                            </ol></p>
+
+						</div>
+					</section>
+
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+                            <p><ul>
+                                <li>E-mail: <a href="mailto:info@en2ru.net">info@en2ru.net</a></li>
+                                <li>Tel.: <a href="tel:+201009785846">+20 100 97 85 84 6</a></li>
+                                <li>Skype: <a href="skype:inessa_akhmetova">inessa_akhmetova</a></li>
+                            </ul></p>
+						</div>
+					</section>
+
+
+				<!-- Philosophy -->
+					<section id="philosophy" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Philosophy</h2>
+							</header>
+
+                            <h3>My Vision</h3>
+                            <p>To be the first choice translator</p>
+
+                            <h3>My Role</h3>
+                            <p>To provide high quality, exceptional language services for all your needs</p>
+
+                            <h3>My Values</h3>
+                            <ul>
+                                <li>Love what you do</li>
+                                <li>Do it outstandingly</li>
+                                <li>Deliver intime</li>
+                                <li>The client comes first</li>
+                                <li>Entrepreneurship and Innovation</li></ul>
+
+                            <h3> Social responsibility</h3>
+                            <p> Strive for greatness in everything you do, “good enough” is not enough!</p>
+                              
+
+                            <h3>My advantages</h3>
+                            Among the many language businesses available, I stand out for 4 main reasons:
+                            <ul><li>High Quality Translations</li>
+                                <li>Cost-effective Solutions</li>
+                                <li>Fast Delivery</li>
+                                <li>Client Success</li></ul>
+                            
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Partners and clients</h2>
+							</header>
+                            <p>TNS opinion, <a href="http://www.tns-opinion.com">http://www.tns-opinion.com</a></p>
+                            <p>Z STUDIO, spol. s r.o., <a href="http://www.zstudio.com">http://www.zstudio.com</a></p>
+                            <p>NO PROBLEM, <a href="http://no-problem.be">http://no-problem.be</a></p>
+                            <p>SAJAN, <a href="http://www.sajan.com">http://www.sajan.com</a></p>
+                            <p>Keroles Ezzat Bashier, lawyer,  <a href="http://www.egypt-advokat.com">http://www.egypt-advokat.com</a></p>
+
+						</div>
+					</section>
+
+
+				<!-- CV -->
+					<section id="cv" class="two">
+						<div class="container">
+
+							<header>
+								<h2>CV</h2>
+							</header>
+                            <p>My CV: <a href="doc/Inessa_Engish_Russian_freelance_translator.pdf">PDF</a></p>
+
+						</div>
+					</section>
+
+
+				<!-- Rates -->
+					<section id="rates" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Rates</h2>
+							</header>
+                            <p>My rates are always negot iable; please submit a representative text sample for quotation.</p>
+
+						</div>
+					</section>
+
+				<!-- Testimonials -->
+					<section id="testimonials" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Testimonials</h2>
+							</header>
+                            <blockquote cite="http://www.languagepartners.net">
+                                Professional, Reliable and Friendly, would not hesitate to recommend to anyone 
+                                and will definetely work again with you. Thumbs up! Thanks Much!
+                            </blockquote>
+                                <p align="right">&mdash; Marvin Yap (Language partners)</p>
+                            <blockquote>
+                                High quality with great professionalism
+                            </blockquote>
+                                <p align="right">&mdash; TRADUTEXTS</p>
+                            <blockquote>
+                                Inessa is a delight to work with. Prompt replies, top quality translations, 
+                                always ready to help out with any linguistic problem, timely deliveries, etc.
+                                In short: if every translator would be like Inessa, the world would be a better place!
+                            </blockquote>
+                                <p align="right">&mdash; Stijn Vanderbroucke(Mr), Project Manager &amp; Chief Editor</p>
+                            <blockquote>
+                                No Problem!
+                            </blockquote>
+                                <p align="right">&mdash; No Problem, <a href="http://no-problem.be">http://no-problem.be</a></p>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.scrolly.min.js"></script>
+			<script src="/js/jquery.scrollzer.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>
