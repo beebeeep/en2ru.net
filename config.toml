@@ -6,3 +6,4 @@ theme = "prologue"
 [params]
   name = "Inessa Akhmetova"
   description = "Translator"
+  copyright = "XKJC"
